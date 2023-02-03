@@ -1,0 +1,31 @@
+h1 {
+    color: #f07067;
+}
+
+/*Aparecera de ese color cuando aun no se le a dado ningun link*/
+a:link {
+    color: #fb8500;
+    text-decoration: none;
+    /*Para que no aparezca subrayado*/
+}
+
+/*Asi aparece cuando ya lo has visitado*/
+a:visited {
+    color: #219ebc;
+}
+
+
+/*Asi aparese cuando se pone el cursor por encima del link*/
+a:hover {
+    color: cyan;
+    text-decoration: underline; /*Que si se subraye cuando se ponga el cursor arriba de el*/
+}
+
+/*Cuando lo presionamos que cambie el color y se subraye*/
+
+a:active{
+
+
+    color:blue;
+    text-decoration: underline;
+}

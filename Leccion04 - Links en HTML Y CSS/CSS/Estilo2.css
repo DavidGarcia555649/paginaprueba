@@ -1,0 +1,21 @@
+h1 {
+    color: #560bad
+}
+
+
+/*Simula un boton*/
+a:link,
+a:visited {
+    background-color: #6b05fb;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /*Para que no se encimen*/
+
+}
+a:hover,
+a:active {
+    background-color: hsl(0, 97%, 53%);
+}
+
